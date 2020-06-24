@@ -43,7 +43,7 @@ at a meaningful project. I have a network drive set-up on a RaspberryPi that I u
 	![alt text](images/EventHandlerDetails.png)
 
 4) Change Observer Path
-	The code as-is watches for file changes in the current directory given the `observer_path` variable
+	* The code as-is watches for file changes in the current directory given the `observer_path` variable
 	* To observe a specific directory change the `observer_path` variable value to the path of your choice
 	![alt text](images/ObserverPath.png)
 
