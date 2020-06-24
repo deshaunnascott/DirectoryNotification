@@ -57,8 +57,8 @@ at a meaningful project. I have a network drive set-up on a RaspberryPi that I u
 
 ## SomeExtraStuff
 * If you want, you can customize the Toaster Notification with your own icon
-	* In the `show_toast` function call, add the argument `icon_path = <PATH_TO_YOUR_ICON>`.
-	* Replace`<PATH_TO_YOUR_ICON>` with the actual path where your icon is stored. This will change the icon for your notification to your own personal icon when it is displayed.
+	* In the `show_toast` function call, add the argument `icon_path = '<PATH_TO_YOUR_ICON>'`.
+	* Replace`<PATH_TO_YOUR_ICON>` with the actual path where your icon is stored. This will change the icon for your notification to your own personal icon when it is displayed. Instead of the default Python icon.
 	* **NOTE:** Your icon must be an `*.ico` file type or it won't work. When I first started this project, I tried to use a `.png` and I kept getting an error until I did some research and found I was using the incorrect file type.
 
 ## ToDo
